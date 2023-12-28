@@ -11,6 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "permissions": [
+      "CAMERA_ROLL",
+      "MEDIA_LIBRARY"
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],

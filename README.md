@@ -78,9 +78,6 @@ This section covers strategies and methods implemented to enhance the app's perf
 
 <img src="assets/mock/Screenshot_1703776051.png" width="48%" /> <img src="assets/mock/Screenshot_1703776055.png" width="48%" />
 
-
-To add an installation section to your Markdown documentation for the React Native BMI Calculator app, you can include the following content:
-
 ## Installation
 
 To get started with the React Native BMI Calculator app, follow these steps:

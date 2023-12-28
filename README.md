@@ -1,32 +1,79 @@
-# YourBMI
 
-#### HomeScreen.js Documentation
+# React Native BMI Calculator App Documentation
 
-1. **Overview**: Introduction to HomeScreen, its role in BMI calculation.
-2. **User Interface**: Detailed description of layout elements - text inputs, buttons, and result display.
-3. **Functionality**:
-   * Input Handling: How height and weight inputs are received and managed.
-   * BMI Calculation: Explain the formula and calculation process.
-   * Error Handling: Describe validation rules and error messages for incorrect inputs.
-4. **State Management**: Discuss useState for handling input, BMI, and error states.
-5. **Result Display**: Mechanism of displaying BMI and corresponding health category.
-6. **Saving Results**: Detailed process of saving BMI results using MediaLibrary.
-7. **Styling and Design**: Explain the StyleSheet and design choices.
+## HomeScreen.js Documentation
 
-#### WelcomeScreen.js Documentation
+### Overview
+The `HomeScreen.js` is the core component where users interact to calculate their Body Mass Index (BMI). It plays a critical role in data input, calculation, and result presentation.
 
-1. **Introduction**: Purpose of WelcomeScreen in the app's flow.
-2. **Layout and Design**: Description of visual elements and user interface design.
-3. **Navigation**: How the screen facilitates navigation to the HomeScreen.
-4. **User Experience**: Discussion of any features enhancing user interaction.
-5. **Code Structure**: Overview of React components used and their arrangement.
+### User Interface
+The layout includes user-friendly text input fields for height (in centimeters) and weight (in kilograms), a calculate button, and a display area for BMI results. The design focuses on simplicity and ease of use.
 
-#### App.js Documentation
+### Functionality
 
-1. **Role of App.js**: Introduction to its central role in app configuration.
-2. **Navigation Setup**: Detailed explanation of React Navigation implementation.
-3. **Routing**: Discuss the initial route setup and screen transitions.
-4. **Global Styles and Themes**: Description of any global styling applied.
-5. **Performance Optimization**: Any considerations or methods used to enhance app performance.
+#### Input Handling
+Inputs are managed using React's state management. Users can enter their height and weight, which are then processed for BMI calculation.
 
-Each section in your documentation should be detailed, explaining not just the 'what' but also the 'why' behind each implementation choice, ensuring it serves as a comprehensive guide for users and developers alike.
+#### BMI Calculation
+The BMI is calculated using the formula: weight (kg) / (height (m)²). This section includes the formula implementation and any considerations taken for unit conversions.
+
+#### Error Handling
+Error handling is crucial for user inputs. This section describes the validation rules (e.g., non-negative numbers, realistic human weight and height ranges) and how error messages are displayed to the user.
+
+#### State Management
+React's `useState` hook is used for handling user inputs, calculated BMI, and error messages. This ensures a responsive and interactive user experience.
+
+#### Result Display
+The calculated BMI is displayed along with its health category (e.g., underweight, normal, overweight). This section explains how the categorization is done based on BMI value.
+
+#### Saving Results
+Users can save their BMI results as an image in their device using the MediaLibrary API. This process, including permissions and file handling, is detailed here.
+
+#### Styling and Design
+This section covers the StyleSheet used in `HomeScreen.js`, discussing the design choices for layout, color schemes, and responsiveness.
+
+## WelcomeScreen.js Documentation
+
+### Introduction
+`WelcomeScreen.js` serves as the first point of contact with the user, introducing them to the app.
+
+### Layout and Design
+The screen layout includes a welcome message and navigation options. The design aims to be inviting and straightforward, guiding users to start using the app.
+
+### Navigation
+Details on how `WelcomeScreen.js` links to `HomeScreen.js`, including any animations or transitions used.
+
+### User Experience
+This section focuses on the user experience aspects, such as ease of navigation, visual appeal, and any interactive elements.
+
+### Code Structure
+Explains the organization of the React components in `WelcomeScreen.js`, and how they work together to create a cohesive user interface.
+
+## App.js Documentation
+
+### Role of App.js
+`App.js` acts as the entry point of the React Native app, setting up the overall framework and navigation.
+
+### Navigation Setup
+In-depth explanation of the React Navigation setup, including the creation of a stack navigator and the configuration of routes.
+
+### Routing
+Details on how routing is managed within the app, with emphasis on the initial route and how screen transitions are handled.
+
+### Global Styles and Themes
+Discusses any global styles or themes defined in `App.js` that are applied across the app for consistency in design.
+
+### Performance Optimization
+This section covers strategies and methods implemented to enhance the app's performance, such as optimizing render cycles and reducing memory usage.
+
+<!-- Adding two images per row -->
+
+#### Images of Application
+
+<img src="assets/mock/Screenshot_1703775985.png" width="48%" /> <img src="assets/mock/Screenshot_1703776022.png" width="48%" />
+
+<img src="assets/mock/Screenshot_1703776025.png" width="48%" /> <img src="assets/mock/Screenshot_1703776033.png" width="48%" />
+
+<img src="assets/mock/Screenshot_1703776038.png" width="48%" /> <img src="assets/mock/Screenshot_1703776045.png" width="48%" />
+
+<img src="assets/mock/Screenshot_1703776051.png" width="48%" /> <img src="assets/mock/Screenshot_1703776055.png" width="48%" />

@@ -77,3 +77,44 @@ This section covers strategies and methods implemented to enhance the app's perf
 <img src="assets/mock/Screenshot_1703776038.png" width="48%" /> <img src="assets/mock/Screenshot_1703776045.png" width="48%" />
 
 <img src="assets/mock/Screenshot_1703776051.png" width="48%" /> <img src="assets/mock/Screenshot_1703776055.png" width="48%" />
+
+
+To add an installation section to your Markdown documentation for the React Native BMI Calculator app, you can include the following content:
+
+## Installation
+
+To get started with the React Native BMI Calculator app, follow these steps:
+
+1. **Clone the Repository**
+   ```
+   git clone https://github.com/enisgjinii/YourBMI.git
+   ```
+   This command clones the app repository to your local machine.
+
+2. **Navigate to the Project Directory**
+   ```
+   cd YourBMI
+   ```
+   Change to the app's root directory.
+
+3. **Install Dependencies**
+   ```
+   npm install
+   ```
+   This installs all the necessary dependencies listed in the `package.json` file.
+
+4. **Run the App**
+   - For iOS:
+     ```
+     npx react-native run-ios
+     ```
+   - For Android:
+     ```
+     npx react-native run-android
+     ```
+   These commands will start the app on an iOS simulator or Android emulator, respectively.
+
+Ensure you have React Native and its dependencies set up on your development machine. For more details, refer to the official [React Native Documentation](https://reactnative.dev/docs/environment-setup).
+
+
+This installation guide is a standard approach for React Native apps and should be suitable for your project. Make sure to test these steps to confirm they work as expected with your specific app setup.

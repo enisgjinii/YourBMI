@@ -1,7 +1,3 @@
----
-description: Documentation of all screens and functionalities in application
----
-
 # YourBMI
 
 #### HomeScreen.js Documentation
